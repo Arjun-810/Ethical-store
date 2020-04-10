@@ -1,0 +1,520 @@
+<html>
+
+<head>
+    <title>Ethical store</title>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="file:///home/arjun/Downloads/fontawesome-free-5.12.1-web/css/all.css">
+    <link rel="stylesheet" type="text/css" href="shopping.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Oswald|Ubuntu&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Permanent+Marker&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+<!-- -------------------------nav----------------------------------- -->
+    <header class="head_header">
+        <div class="container-fluid">
+            <nav class="top">
+                <ul>
+                    <li class="listhead">
+                        <a class="linko" href="#"><span id="btn1">SIGN IN</span></a>
+                    </li>
+                    <li class="listhead">
+                        <a class="linko" href="#"><span id="this">SIGN UP</span></a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="logo">
+        <img src="Ethical Store.png">
+    </div>
+    <header>
+        <div class="container-fluid">
+            <nav class="top1">
+                <ul class="pre">
+                    <li class="pro c2">
+                        <a class="prop" href="#">HOME</a>
+                    </li>
+                    <li class="pro">
+                        <a class="prop" href="collection.html">COLLECTION</a>
+                    </li>
+                    <li class="pro">
+                        <a class="prop" href="shop.html">SHOP</a>
+                    </li>
+                    <li class="pro">
+                        <a class="prop" href="about.html">ABOUT</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- /* -------------------------------------------sign in---------------------------------------------------------------- */ -->
+    <div class="modal">
+            <div class="popup" id="popup1">
+        <div class="close1" id="close1">&times;</div>
+        <div class="user_logo"><i class="fas fa-users fa-7x"></i></div>
+    <div class="containeruser">
+        <div class="enter_user">Username</div>
+        <input type="text" class="entry_user" placeholder="Enter username/mobile no.">
+        <div class="enter_user">Password</div>
+        <input type="text" class="entry_pass" placeholder="Enter user password"><br>
+    </div>
+        <input type="submit" class="submit" value="Log In">
+    </div>
+
+        <script src="arjun.js"></script>
+    </div>
+    <!-- /* -------------------------------------------sign up---------------------------------------------------------------- */ -->
+
+    <div class="popup2" id="signup">
+        <div class="close2" id="there">&times;</div>
+        <div class="user_logo"><i class="fas fa-users fa-7x"></i></div>
+    <div class="containeruser1">
+        <div class="fname">First Name</div>
+        <input type="text" class="entry_user" placeholder="Enter First Name">
+        <div class="fname">last Name</div>
+        <input type="text" class="luser" placeholder="Enter Last Name">
+        <div class="fname">Email</div>
+        <input type="text" class="entry_user" placeholder="Enter Email">
+        <div class="fname">Mobile no.</div>
+        <input type="text" class="num1" placeholder="Enter user number"><br>
+    </div>
+        <input type="submit" class="submit1" value="Next" >
+    </div>
+    <script>
+        var signup1 = document.getElementById('signup');
+var openthis = document.getElementById('this');
+var closethis = document.getElementById('there');
+openthis.addEventListener('click',openthisq);
+closethis.addEventListener('click',closethisq);
+function openthisq(){
+    signup1.style.display = 'block';
+    console.log('desd')
+}
+function closethisq(){
+    signup1.style.display = 'none';
+}
+
+    </script>
+
+  <!-- --------------------------------slides----------------------------------- -->
+    <div class="banner1">
+        <img class="bannaer1img" src="shop6.jpeg">
+        <div class="title-box textbox1">
+            <h1>Ethical store</h1>
+            <span></span>
+            <p> paragraph is a series of related sentences developing a central idea, called the topic. Try to think.</p>
+        </div>
+    </div>
+    <div class="banner2">
+        <img class="bannaer1img" src="shopp.jpeg">
+        <div class="title-box textbox2">
+            <h1>70% off on man wear</h1>
+            <span></span>
+            <p> paragraph is a series of related sentences developing a central idea, called the topic. Try to think.</p>
+        </div>
+    </div>
+    <div class="banner3">
+        <img class="bannaer1img" src="shop4.jpeg">
+        <div class="title-box textbox3">
+            <h1>50%off on electronics</h1>
+            <span></span>
+            <p> paragraph is a series of related sentences developing a central idea, called the topic. Try to think.</p>
+        </div>
+    </div>
+    <div class="banner4">
+        <img class="bannaer1img" src="shopi.jpeg">
+        <div class="title-box textbox4">
+            <h1>sale on wednesday</h1>
+            <span></span>
+            <p> paragraph is a series of related sentences developing a central idea, called the topic. Try to think.</p>
+        </div>
+    </div>
+    <p class="mm"> </p> 
+<!-- ------------------------search box-------------------------------------- -->
+    <section class="search-box">
+        <div class="search">
+            <input type="text" placeholder="What are you looking for">
+            <input type="submit" name="" value="search">
+        </div>
+    </section>
+<!-- -------------------------------items---------------------------------------- -->
+
+    <div class="tempt">
+        <span>Available items...</span>
+    </div>
+    <div class="avai">
+        <div class="card card1">
+            <div class="imgbx">
+                <img src="shop1.jpeg">
+            </div>
+            <div class="content">
+                    <h2>
+                        Gifts.
+                    </h2>
+                    <p>paragraph is a series of related sentences developing a central idea, called the topic. Try to think
+                        about paragraphs in terms of thematic unity: a paragraph is a sentence or a group of sentences that
+                        </p>
+            </div>
+        </div>
+        <div class="card card2">
+            <div class="imgbx">
+                <img src="electronics.jpg">
+            </div>
+            <div class="content">
+                <div>
+                    <h2>
+                        Electronics and acceories.
+                    </h2>
+                    <p>paragraph is a series of related sentences developing a central idea, called the topic. Try to think
+                        about paragraphs in terms of thematic unity: a paragraph is a sentence or a group of sentences that
+                        </p>
+                </div>
+            </div>
+        </div>
+        <div class="card card3">
+            <div class="imgbx">
+                <img src="grocery.jpg">
+            </div>
+            <div class="content">
+                <div>
+                    <h2>
+                        Home Grocery.
+                    </h2>
+                    <p>paragraph is a series of related sentences developing a central idea, called the topic. Try to think
+                        about paragraphs in terms of thematic unity: a paragraph is a sentence or a group of sentences that
+                        </p>
+                </div>
+            </div>
+        </div>  
+        <div class="card card6">
+            <div class="imgbx">
+                <img src="shop4.jpeg">
+            </div>
+            <div class="content">
+                <div>
+                    <h2>
+                        online bill and payments
+                    </h2>
+                    <p>paragraph is a series of related sentences developing a central idea, called the topic. Try to think
+                        about paragraphs in terms of thematic unity: a paragraph is a sentence or a group of sentences that
+                        </p>
+                </div>
+            </div>
+        </div>
+        <div class="card card7">
+            <div class="imgbx">
+                <img src="book1.jpg">
+            </div>
+            <div class="content">
+                <div>
+                    <h2>
+                        E-book and learning
+                    </h2>
+                    <p>paragraph is a series of related sentences developing a central idea, called the topic. Try to think
+                        about paragraphs in terms of thematic unity: a paragraph is a sentence or a group of sentences that
+                        </p>
+                </div>
+            </div>
+        </div>
+        <div class="card card8">
+            <div class="imgbx">
+                <img src="printer.jpg">
+            </div>
+            <div class="content">
+                <div>
+                    <h2>
+                        clothesand foot wear
+                    </h2>
+                    <p>paragraph is a series of related sentences developing a central idea, called the topic. Try to think
+                        about paragraphs in terms of thematic unity: a paragraph is a sentence or a group of sentences that
+                        </p>
+                </div>
+            </div>
+        </div>
+    </div>
+        <div class="seprate"></div>
+<!-- -----------------------------------------trending------------------------------------------------------------ -->
+<div class="trend">
+    <span>Trending.... </span>
+</div>
+<div class="opo">
+<div class="container container1">
+    <div class="product-top">
+        <img src="smart.jpg">
+        <div class="imger">
+            <div class="overlay">
+                <button type="button" class="btn btn-secondary " title="A">
+                    <i class=" fa fa-eye fa-2x"></i>
+                </button>
+                <br>
+                <button type="button" class="btn btn-secondary" title="A">
+                    <i class="far fa-heart fa-2x"></i>
+                </button>
+                <br>
+                <button type="button" class="btn btn-secondary" title="A">
+                    <i class="fas fa-shopping-cart fa-2x"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+<div class="text">
+    <div class="rating">
+        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+    </div>
+    <h2>smart watch</h2>
+    <h3><i class="fas fa-rupee-sign"></i>2999</h3>
+</div>
+</div>
+<div class="container container2">
+    <div class="product-top">
+        <img src="gym.jpg">
+        <div class="imger">
+            <div class="overlay">
+                <button type="button" class="btn btn-secondary " title="A">
+                    <i class=" fa fa-eye fa-2x"></i>
+                </button>
+                <br>
+                <button type="button" class="btn btn-secondary" title="A">
+                    <i class="far fa-heart fa-2x"></i>
+                </button>
+                <br>
+                <button type="button" class="btn btn-secondary" title="A">
+                    <i class="fas fa-shopping-cart fa-2x"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+<div class="text">
+    <div class="rating">
+        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+    </div>
+    <h2>Gym set</h2>
+    <h3><i class="fas fa-rupee-sign"></i>1999</h3>
+</div>
+</div>
+<div class="container container3">
+    <div class="product-top">
+        <img src="clean.jpg">
+        <div class="imger">
+            <div class="overlay">
+                <button type="button" class="btn btn-secondary " title="A">
+                    <i class=" fa fa-eye fa-2x"></i>
+                </button>
+                <br>
+                <button type="button" class="btn btn-secondary" title="A">
+                    <i class="far fa-heart fa-2x"></i>
+                </button>
+                <br>
+                <button type="button" class="btn btn-secondary" title="A">
+                    <i class="fas fa-shopping-cart fa-2x"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+<div class="text">
+    <div class="rating">
+        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+    </div>
+    <h2>Floor cleaner</h2>
+    <h3><i class="fas fa-rupee-sign"></i>1599</h3>
+</div>
+</div>
+<div class="container container4">
+    <div class="product-top">
+        <img src="asus.jpg">
+        <div class="imger">
+            <div class="overlay">
+                <button type="button" class="btn btn-secondary " title="A">
+                    <i class=" fa fa-eye fa-2x"></i>
+                </button>
+                <br>
+                <button type="button" class="btn btn-secondary" title="A">
+                    <i class="far fa-heart fa-2x"></i>
+                </button>
+                <br>
+                <button type="button" class="btn btn-secondary" title="A">
+                    <i class="fas fa-shopping-cart fa-2x"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+<div class="text">
+    <div class="rating">
+        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+    </div>
+    <h2>Asus vivo book 15</h2>
+    <h3><i class="fas fa-rupee-sign"></i>45999</h3>
+</div>
+</div>
+<div class="container container5">
+    <div class="product-top">
+        <img src="mobile.jpg">
+        <div class="imger">
+            <div class="overlay">
+                <button type="button" class="btn btn-secondary " title="A">
+                    <i class=" fa fa-eye fa-2x"></i>
+                </button>
+                <br>    
+                <button type="button" class="btn btn-secondary" title="A">
+                    <i class="far fa-heart fa-2x"></i>
+                </button>
+                <br>
+                <button type="button" class="btn btn-secondary" title="A">
+                    <i class="fas fa-shopping-cart fa-2x"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+<div class="text">
+    <div class="rating">
+        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+    </div>
+    <h2>Leago</h2>
+    <h3><i class="fas fa-rupee-sign"></i>22350</h3>
+</div>
+</div>
+<div class="container container6">
+    <div class="product-top">
+        <img src="shoes.jpg">
+        <div class="imger">
+            <div class="overlay">
+                <button type="button" class="btn btn-secondary " title="A">
+                    <i class=" fa fa-eye fa-2x"></i>
+                </button>
+                <br>
+                <button type="button" class="btn btn-secondary" title="A">
+                    <i class="far fa-heart fa-2x"></i>
+                </button>
+                <br>
+                <button type="button" class="btn btn-secondary" title="A">
+                    <i class="fas fa-shopping-cart fa-2x"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+<div class="text">
+    <div class="rating">
+        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+    </div>
+    <h2>Shoes</h2>
+    <h3><i class="fas fa-rupee-sign"></i>999</h3>
+</div>
+</div>
+<div class="container container7">
+    <div class="product-top">
+        <img src="bopok.jpg">
+        <div class="imger">
+            <div class="overlay">
+                <button type="button" class="btn btn-secondary " title="A">
+                    <i class=" fa fa-eye fa-2x"></i>
+                </button>
+                <br>
+                <button type="button" class="btn btn-secondary" title="A">
+                    <i class="far fa-heart fa-2x"></i>
+                </button>
+                <br>
+                <button type="button" class="btn btn-secondary" title="A">
+                    <i class="fas fa-shopping-cart fa-2x"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+<div class="text">
+    <div class="rating">
+        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+    </div>
+    <h2>Subconscious mind</h2>
+    <h3><i class="fas fa-rupee-sign"></i>599</h3>
+</div>
+</div>
+
+<div class="container container8">
+    <div class="product-top">
+        <img src="cloth.jpg">
+        <div class="imger">
+            <div class="overlay">
+                <button type="button" class="btn btn-secondary " title="A">
+                    <i class=" fa fa-eye fa-2x"></i>
+                </button>
+                <br>
+                <button type="button" class="btn btn-secondary" title="A">
+                    <i class="far fa-heart fa-2x"></i>
+                </button>
+                <br>
+                <button type="button" class="btn btn-secondary" title="A">
+                    <i class="fas fa-shopping-cart fa-2x"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+<div class="text">
+    <div class="rating">
+        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+    </div>
+    <h2>Mens T-shirts</h2>
+    <h3><i class="fas fa-rupee-sign"></i>199</h3>
+</div>
+</div>
+</div>
+<div class="seprate"></div>
+
+<div class="instagram">
+    <div class="insta">
+        <h1>
+            Ethical stire on instagram
+        </h1>
+        <h3>
+            For latest arrival Follow on Instagram
+        </h3>
+        <h2>Clicl here.. to <span>Follow</span></h2>
+    </div>
+</div>
+<!-- --------------------------footer----------------------------------------------- -->
+<div class="row footer">
+    <div class="tota tota1">
+        <ul>
+            <li class="point12">ABOUT US</li>
+            <li class="point1">Company background</li>
+            <li class="point1">Carrers</li>
+            <li class="point1">Reviews</li>
+        </ul>
+    </div>
+    <div class="tota tota2">
+        <ul>
+            <li class="point12">MEMBERSHIP</li>
+            <li class="point1">MEMBERSHIP OPTION</li>
+            <li class="point1">MEMBERSHIP BENIFITS</li>
+            <li class="point1">COPORATE MEMBERSHIP</li>
+        </ul>
+    </div>
+    <div class="tota tota3">
+        <ul>
+            <li class="point12">CLUBS</li>
+            <li class="point1">CLUBS FINDER</li>
+            <li class="point1">CLUBS OPERATING HOURS</li>
+            <li class="point1">CLUB FACILITES</li>
+        </ul>
+    </div>
+    <div class="tota tota4">
+        <ul>
+            <li class="point12">POLICIES&LEGAL</li>
+            <li class="point1">PRIVACY POLICY</li>
+            <li class="point1">TEMS AND CONDTION</li>
+            <li class="point1">LABOURS COMPLANE DOCUMENT</li>
+        </ul>
+    </div>
+    <div id="dash">
+        <i class="fab fa-facebook-square"></i>
+        <i class="fab fa-twitter-square"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-youtube"></i>
+    </div>
+    </div>
+</div>  
+<footer class="center">
+    <p>Ethical store &copy;2020</p>
+</footer>
+</body>

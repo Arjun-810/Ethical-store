@@ -1,0 +1,345 @@
+*,body.html{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+
+}
+.head_header{
+    background-color: #c70039;
+    height: 112px;
+    line-height: 112px;
+    overflow: hidden;
+}
+.logo{
+    position: absolute;
+    top: 1%;
+    left: 1%;
+}
+
+ul{
+    list-style: none;
+} 
+.listhead{
+    display: inline-block;
+    font-size: 35px;
+    text-decoration: none;
+    font-family: 'Prompt', sans-serif;
+
+
+}
+.top{
+    float: right;
+}
+.linko{
+    padding-right: 30px;
+    font-weight: bold;
+    color: black    ;
+    transition: all 0.5s;
+    text-decoration: none;
+}
+.linko:hover{
+    color: WHITE;
+    text-decoration: none;
+}
+.pre{
+    list-style: none;
+}
+.prop{
+    text-decoration: none;
+}
+.pro{
+    display: inline-block;
+    font-size: 35px;
+    margin-left: 15px;
+}
+.prop{
+    padding-right: 30px;
+    font-weight: bold;
+    color: #c70039;       
+    transition: all 0.5s;
+}
+.prop:hover{
+    color: black;
+    text-decoration: none;
+}
+.top1{
+    margin-top: 15px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    font-family: 'Acme', sans-serif;
+
+}
+.imab{
+    width: 100%;
+    height: 70vh;
+    margin-bottom: 8vh;
+}
+.c2{
+    color: black;
+}
+
+.items img{
+    height: 35vh;
+    padding-left: 10%;
+    margin-bottom: 10%;
+}
+.content .rating{
+    color: yellow;
+}
+.price{
+    border: 1px solid black;
+    width: 150px;height: 80px;
+    padding-top: 10px;
+    padding-left: 10px;
+    background-color: rgb(228, 216, 216);
+    transition: 1s all;
+}
+.price h3{
+    color: red;
+}
+.price:hover{
+    width: 155px;
+    height: 85px;
+    border: 2px solid black;
+    font-size: 120%;
+    background-color: rgb(241, 240, 233);
+}
+.btnn{
+    margin-top: 10px;
+    border: 1px solid black;
+    height: 45px;
+    width: 160px;
+    font-weight: bolder;
+}
+.btnn:hover{
+    border: 2px solid black;
+}
+.content h5{
+    margin-top: 15px;
+}
+.seprater{
+    height: 1px;
+    width: 200%;
+    background-color: black;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+<!-- --------------------------footer----------------------------------------------- -->
+.grid-3{
+    display:grid;
+    grid-template-columns: 1fr  1fr 1fr;
+
+    font-family: 'Poppins', sans-serif;
+
+}
+.center{
+    text-align: center;
+    margin: auto;
+    background-color: black;
+    color: blanchedalmond;
+}footer{
+    padding: 2.2rem;
+    font-family: 'Poppins', sans-serif;
+
+}
+footer p{
+    margin: 0;
+    font-size: x-large;
+}
+.tota{
+    display: inline-table;
+    margin-left: 10%;
+    color: blanchedalmond;
+}
+.row1{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: #c70039;
+    /* margin-bottom: 3%; */
+}
+.point12{
+    font-size: x-large;
+    color: black;
+    border-bottom: 1px solid black;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+#dash{
+    position: relative;
+    right: -88%;
+    font-size: xx-large;
+}
+#dash:hover{
+    color: blanchedalmond;
+}
+
+
+
+
+/* --------------------------------------------popup-sing in-------------------------------------------------------- */
+
+.popup{
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    background-color: rgb(185, 172, 172);
+    width: 40%;
+    height: 60vh;
+    border-radius: 20% 0 20% 0;
+    font-family: 'Open Sans', sans-serif;
+    z-index: 1500;
+    display: none;
+    font-family: 'Poppins', sans-serif;
+
+}
+.close1{
+    display: block;
+    width: 100%;
+    height: 20px;
+    font-size: 50px;
+    margin-left: 95%;
+    margin-top: 5%;
+    z-index: 2000;cursor: pointer;
+    line-height: 20px;
+
+}
+.user_logo{
+    margin-left: 40%;
+    margin-top: 8%;
+    color: #c70039;
+}
+.containeruser{
+    margin-top: 3%;
+    margin-left: 25%;
+    line-height: 50px;
+    color: #c70039;
+}
+.enter_user{
+    font-size: xx-large;
+    font-weight: bold;
+}
+.containeruser input{
+    border: none;
+    border-bottom: 1px solid #c70039 ;
+    background: none;
+    width: 60%;
+    height: 30px;
+    font-size: x-large;
+    color: #c70039;
+    padding-left: 10PX;
+}
+.submit{
+    margin-top: 10px;
+    border: none;
+    border-bottom: 1px solid #c70039;
+    background: none;
+    margin-left: 35%;
+    width: 20%;
+    height: 4vh;
+    color: #c70039;
+    font-size: x-large;
+} 
+/* -------------------------------------------sign up---------------------------------------------------------------- */
+.popup2{
+    position: absolute;
+    top: 15%;
+    left: 30%;
+    background-color: rgb(185, 172, 172);
+    width: 35%;
+    height: 70vh;
+    border-radius: 20% 0 20% 0;
+    font-family: 'Open Sans', sans-serif;
+    z-index: 1600;
+    display: none;
+    font-family: 'Poppins', sans-serif;
+
+}
+.close2{
+    display: block;
+    width: 100%;
+    height: 20px;
+    font-size: 50px;
+    margin-left: 95%;
+    margin-top: 5%;
+    z-index: 2000;cursor: pointer;
+    line-height: 20px;
+
+}
+.user_logo{
+    margin-left: 40%;
+    margin-top: 8%;
+    color: #c70039;
+}
+.containeruser1{
+    margin-top: 3%;
+    margin-left: 25%;
+    line-height: 50px;
+    color: #c70039;
+}
+.fname{
+    font-size: 25px;
+    font-weight: bold;
+}
+.containeruser1 input{
+    border: none;
+    border-bottom: 1px solid #c70039 ;
+    background: none;
+    width: 60%;
+    height: 30px;
+    font-size: x-large;
+    color: #c70039;
+    padding-left: 10PX;
+}
+.submit1{
+    margin-top: 10px;
+    border: none;
+    border-bottom: 1px solid #c70039;
+    background: none;
+    margin-left: 35%;
+    width: 20%;
+    height: 4vh;
+    color: #c70039;
+    font-size: x-large;
+}
+.trend{
+    position: relative;
+    top: 0;
+    left: 10%;
+    width: 600px;
+    height: 50px;
+    border-bottom: 5px solid #000;
+    line-height: 50px;
+    margin-bottom: 50px;
+    background-color: #c70039;
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+
+}
+.trend span{
+    color: #fff;
+    font-size: 30px;
+    display: inline-block;
+    padding: 2px 20px;
+    background: #000;
+    text-transform: uppercase;
+}
+.trend span:before{
+    position: absolute;
+    content: '';
+    width: 105%;
+    height: 100%;
+    background: #000;
+    z-index: 1;
+    transform: rotate(45deg);
+}
+.see{
+    margin-bottom: 20%;
+    border: none;
+    border-bottom:1px solid #c70039;
+    background: none;
+    color: #c70039;
+    font-size: xx-large;
+    width: 125%;
+
+}

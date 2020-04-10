@@ -1,0 +1,387 @@
+<html>
+
+<head>
+    <title>Ethical store</title>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="file:///home/arjun/Downloads/fontawesome-free-5.12.1-web/css/all.css">
+    <link rel="stylesheet" type="text/css" href="shop.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Oswald|Ubuntu&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Permanent+Marker&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+</head>
+
+<body>
+<!-- -------------------------nav----------------------------------- -->
+    <header class="head_header">
+        <div class="container-fluid">
+            <nav class="top">
+                <ul>
+                    <li class="listhead">
+                        <a class="linko" href="#"><span id="btn1">SIGN IN</span></a>
+                    </li>
+                    <li class="listhead">
+                        <a class="linko" href="#"><span id="this">SIGN UP</span></a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="logo">
+        <img src="Ethical Store.png">
+    </div>
+    <header>
+        <div class="container-fluid">
+            <nav class="top1">
+                <ul class="pre">
+                    <li class="pro c2">
+                        <a class="prop" href="sjopping.html">HOME</a>
+                    </li>
+                    <li class="pro">
+                        <a class="prop" href="collection.html">COLLECTION</a>
+                    </li>
+                    <li class="pro">
+                        <a class="prop" href="#">SHOP</a>
+                    </li>
+                    <li class="pro">
+                        <a class="prop" href="about.html">ABOUT</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="about">
+        <img class="imab"src="shopee.jpeg">
+    </div>
+    <!-- /* -------------------------------------------sign in---------------------------------------------------------------- */ -->
+    <div class="modal">
+            <div class="popup" id="popup1">
+        <div class="close1" id="close1">&times;</div>
+        <div class="user_logo"><i class="fas fa-users fa-7x"></i></div>
+    <div class="containeruser">
+        <div class="enter_user">Username</div>
+        <input type="text" class="entry_user" placeholder="Enter username/mobile no.">
+        <div class="enter_user">Password</div>
+        <input type="text" class="entry_pass" placeholder="Enter user password"><br>
+    </div>
+        <input type="submit" class="submit" value="Log In">
+    </div>
+
+        <script src="arjun.js"></script>
+    </div>
+    <!-- /* -------------------------------------------sign up---------------------------------------------------------------- */ -->
+
+    <div class="popup2" id="signup">
+        <div class="close2" id="there">&times;</div>
+        <div class="user_logo"><i class="fas fa-users fa-7x"></i></div>
+    <div class="containeruser1">
+        <div class="fname">First Name</div>
+        <input type="text" class="entry_user" placeholder="Enter First Name">
+        <div class="fname">last Name</div>
+        <input type="text" class="luser" placeholder="Enter Last Name">
+        <div class="fname">Email</div>
+        <input type="text" class="entry_user" placeholder="Enter Email">
+        <div class="fname">Mobile no.</div>
+        <input type="text" class="num1" placeholder="Enter user number"><br>
+    </div>
+        <input type="submit" class="submit1" value="Next" >
+    </div>
+    <script>
+        var signup1 = document.getElementById('signup');
+var openthis = document.getElementById('this');
+var closethis = document.getElementById('there');
+openthis.addEventListener('click',openthisq);
+closethis.addEventListener('click',closethisq);
+function openthisq(){
+    signup1.style.display = 'block';
+    console.log('desd')
+}
+function closethisq(){
+    signup1.style.display = 'none';
+}
+
+    </script>
+<!-- -------------------------------------------itenms-------------------------------------------------------- -->
+<div class="trend">
+    <span>your products... </span>
+</div>
+<div class="container-fluid">
+    <div class="row">
+
+        <div class="col-1 col-md-1 items"></div>
+        <div class="col-3 col-md-3 cil-sm-12 items">
+            <img src="power.jpg">
+        </div>
+        <div class="col-5 col-md-5 cil-sm-12">
+            <div class="content">
+                <h3>The Power of Your Subconscious Mind</h3>
+                <h5>by <span> Dr Joseph </span>(Author)
+                </h5>
+                <div class="rating">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                </div><hr>
+                <div class="price"><a href="#">kindel addition<br><h3><i class="fas fa-rupee-sign"></i>199</h3></a></div>
+                <h5>Currently available</h5>
+                <button type="button" class="btnn"><i class="fas fa-cart-arrow-down"></i> ADD TO CART</button>
+            </div>
+        </div>
+    </div>
+    <div class="seprater"></div>
+    <div class="row">
+        <div class="col-1 col-md-1 items"></div>
+        <div class="col-3 col-md-3 cil-sm-12 items">
+            <img src="protein.jpg">
+        </div>
+        <div class="col-5 col-md-5 cil-sm-12">
+            <div class="content">
+                <h3>Optimum Nutrition (ON) 100% Whey Protein Powder - 1.85 lbs, 837 g (Chocolate Milkshake)</h3>
+                <h5>by <span> OPTIMUM NUTRITION</span>
+                </h5>
+                <div class="rating">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                </div><hr>
+                <div class="price"><a href="#">kindel addition<br><h3><i class="fas fa-rupee-sign"></i>1462</h3></a></div>
+                <h5>Currently available</h5>
+                <button type="button" class="btnn"><i class="fas fa-cart-arrow-down"></i> ADD TO CART</button>
+            </div>
+        </div>
+    </div>
+    <div class="seprater"></div>
+    <div class="row">
+        <div class="col-1 col-md-1 items"></div>
+        <div class="col-3 col-md-3 cil-sm-12 items">
+            <img src="ata.jpg">
+        </div>
+        <div class="col-5 col-md-5 cil-sm-12">
+            <div class="content">
+                <h3>SHRILALMAHAL Empire Basmati Rice (Most Premium), 5 kg | Low Glycemic Index | Gluten Free</h3>
+                <h5>by <span> SHRILALMAHAL </span>
+                </h5>
+                <div class="rating">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                </div><hr>
+                <div class="price"><a href="#">kindel addition<br><h3><i class="fas fa-rupee-sign"></i>793.25</h3></a></div>
+                <h5>Currently available</h5>
+                <button type="button" class="btnn"><i class="fas fa-cart-arrow-down"></i> ADD TO CART</button>
+            </div>
+        </div>
+    </div>
+    <div class="seprater">
+
+    </div><div class="row">
+        <div class="col-1 col-md-1 items"></div>
+        <div class="col-3 col-md-3 cil-sm-12 items">
+            <img src="smart.jpg">
+        </div>
+        <div class="col-5 col-md-5 cil-sm-12">
+            <div class="content">
+                <h3>Chamonics A1 Smart Watch with Two Colour Bluetooth Smartwatch for Man, Woman, Boys, Girls and Compatible with All Mobile Phones - Black
+                </h3>
+                <h5>by <span>  Chamonics</span>
+                </h5>
+                <div class="rating">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                </div><hr>
+                <div class="price"><a href="#">kindel addition<br><h3><i class="fas fa-rupee-sign"></i>1499</h3></a></div>
+                <h5>Currently available</h5>
+                <button type="button" class="btnn"><i class="fas fa-cart-arrow-down"></i> ADD TO CART</button>
+            </div>
+        </div>
+    </div>
+    <div class="seprater"></div>
+    <div class="row">
+        <div class="col-1 col-md-1 items"></div>
+        <div class="col-3 col-md-3 cil-sm-12 items">
+            <img src="gym.jpg">
+        </div>
+        <div class="col-5 col-md-5 cil-sm-12">
+            <div class="content">
+                <h3>Kore PVC 20-50 kg Gym Set with 3 Ft Curl + 5 Ft Plain Rod + 2 x Dumbbell Rods with Gym Accessories</h3>
+                <h5>by <span> Kore</span>
+                </h5>
+                <div class="rating">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                </div><hr>
+                <div class="price"><a href="#">kindel addition<br><h3><i class="fas fa-rupee-sign"></i>1999</h3></a></div>
+                <h5>Currently available</h5>
+                <button type="button" class="btnn"><i class="fas fa-cart-arrow-down"></i> ADD TO CART</button>
+            </div>
+        </div>
+    </div>
+    <div class="seprater"></div>
+    <div class="row">
+        <div class="col-1 col-md-1 items"></div>
+        <div class="col-3 col-md-3 cil-sm-12 items">
+            <img src="shoes.jpg">
+        </div>
+        <div class="col-5 col-md-5 cil-sm-12">
+            <div class="content">
+                <h3>Allen Cooper 1156 Men's Safety Shoe, Size-8 UK, Grey (1 Pair Free Socks)</h3>
+                <h5>by <span> Allen Cooper</span>
+                </h5>
+                <div class="rating">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                </div><hr>
+                <div class="price"><a href="#">kindel addition<br><h3><i class="fas fa-rupee-sign"></i>799</h3></a></div>
+                <h5>Currently available</h5>
+                <button type="button" class="btnn"><i class="fas fa-cart-arrow-down"></i> ADD TO CART</button>
+            </div>
+        </div>
+    </div>
+    <div class="seprater"></div>
+    <div class="row">
+        <div class="col-1 col-md-1 items"></div>
+        <div class="col-3 col-md-3 cil-sm-12 items">
+            <img src="asus.jpg">
+        </div>
+        <div class="col-5 col-md-5 cil-sm-12">
+            <div class="content">
+                <h3>ASUS VivoBook 14 X412UA-EK319T 14.0-inch Laptop (7th Gen Core i3-7020U/4GB/1TB HDD/Windows 10 Home(64bit)/Intel Integrated HD Graphics 620 Graphics), Transparent Silver</h3>
+                <h5>by <span> Asus </span>
+                </h5>
+                <div class="rating">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                </div><hr>
+                <div class="price"><a href="#">kindel addition<br><h3><i class="fas fa-rupee-sign"></i>29999</h3></a></div>
+                <h5>Currently available</h5>
+                <button type="button" class="btnn"><i class="fas fa-cart-arrow-down"></i> ADD TO CART</button>
+            </div>
+        </div>
+    </div>
+    <div class="seprater"></div>
+    <div class="row">
+        <div class="col-1 col-md-1 items"></div>
+        <div class="col-3 col-md-3 cil-sm-12 items">
+            <img src="clean.jpg">
+        </div>
+        <div class="col-5 col-md-5 cil-sm-12">
+            <div class="content">
+                <h3>The Power of Your Subconscious Mind</h3>
+                <h5>by <span> Dr Joseph </span>(Author)
+                </h5>
+                <div class="rating">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                </div><hr>
+                <div class="price"><a href="#">kindel addition<br><h3><i class="fas fa-rupee-sign"></i>199</h3></a></div>
+                <h5>Currently available</h5>
+                <button type="button" class="btnn"><i class="fas fa-cart-arrow-down"></i> ADD TO CART</button>
+            </div>
+        </div>
+    </div>
+    <div class="seprater"></div>
+    <div class="row">
+        <div class="col-1 col-md-1 items"></div>
+        <div class="col-3 col-md-3 cil-sm-12 items">
+            <img src="volit.jpg">
+        </div>
+        <div class="col-5 col-md-5 cil-sm-12">
+            <div class="content">
+                <h3>WildHorn Blue Men's Wallet</h3>
+                <h5>by <span> WildHorn</span>
+                </h5>
+                <div class="rating">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                </div><hr>
+                <div class="price"><a href="#">kindel addition<br><h3><i class="fas fa-rupee-sign"></i>499</h3></a></div>
+                <h5>Currently available</h5>
+                <button type="button" class="btnn"><i class="fas fa-cart-arrow-down"></i> ADD TO CART</button>
+            </div>
+        </div>
+    </div>
+    <div class="seprater"></div>
+    <div class="row">
+        <div class="col-1 col-md-1 items"></div>
+        <div class="col-3 col-md-3 cil-sm-12 items">
+            <img src="pen.jpg">
+        </div>
+        <div class="col-5 col-md-5 cil-sm-12">
+            <div class="content">
+                <h3>SanDisk Ultra Dual 32GB OTG Pen Drive Pack of 2 (Black, Gold)</h3>
+                <h5>by <span> SanDisk </span>
+                </h5>
+                <div class="rating">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                </div><hr>
+                <div class="price"><a href="#">kindel addition<br><h3><i class="fas fa-rupee-sign"></i>249</h3></a></div>
+                <h5>Currently available</h5>
+                <button type="button" class="btnn"><i class="fas fa-cart-arrow-down"></i> ADD TO CART</button>
+            </div>
+        </div>
+    </div>
+    <div class="seprater"></div>
+    <div class="row">
+        <div class="col-1 col-md-1 items"></div>
+        <div class="col-3 col-md-3 cil-sm-12 items">
+            <img src="phn.jpg">
+        </div>
+        <div class="col-5 col-md-5 cil-sm-12">
+            <div class="content">
+                <h3>Redmi Note 7S (32 GB) (3 GB RAM) (Onyx Black)</h3>
+                <h5>by <span> Xiaomi </span>
+                </h5>
+                <div class="rating">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                </div><hr>
+                <div class="price"><a href="#">kindel addition<br><h3><i class="fas fa-rupee-sign"></i>1299</h3></a></div>
+                <h5>Currently available</h5>
+                <button type="button" class="btnn"><i class="fas fa-cart-arrow-down"></i> ADD TO CART</button>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="row">
+        <div class="col-5 col-md-5"></div>
+        <div class="col-1 col-md-1">
+            <button class="see">see more.</button>
+        </div>
+        </div>
+    </div>
+    
+<!-- --------------------------footer----------------------------------------------- -->
+<div class="row1 footer">
+    <div class="tota tota1">
+        <ul>
+            <li class="point12">ABOUT US</li>
+            <li class="point1">Company background</li>
+            <li class="point1">Carrers</li>
+            <li class="point1">Reviews</li>
+        </ul>
+    </div>
+    <div class="tota tota2">
+        <ul>
+            <li class="point12">MEMBERSHIP</li>
+            <li class="point1">MEMBERSHIP OPTION</li>
+            <li class="point1">MEMBERSHIP BENIFITS</li>
+            <li class="point1">COPORATE MEMBERSHIP</li>
+        </ul>
+    </div>
+    <div class="tota tota3">
+        <ul>
+            <li class="point12">CLUBS</li>
+            <li class="point1">CLUBS FINDER</li>
+            <li class="point1">CLUBS OPERATING HOURS</li>
+            <li class="point1">CLUB FACILITES</li>
+        </ul>
+    </div>
+    <div class="tota tota4">
+        <ul>
+            <li class="point12">POLICIES&LEGAL</li>
+            <li class="point1">PRIVACY POLICY</li>
+            <li class="point1">TEMS AND CONDTION</li>
+            <li class="point1">LABOURS COMPLANE DOCUMENT</li>
+        </ul>
+    </div>
+    <div id="dash">
+        <i class="fab fa-facebook-square"></i>
+        <i class="fab fa-twitter-square"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-youtube"></i>
+    </div>
+    </div>
+</div>  
+<footer class="center">
+    <p>Ethical store &copy;2020</p>
+</footer>
+</body>

@@ -1,0 +1,220 @@
+<html>
+
+<head>
+    <title>Ethical store</title>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="file:///home/arjun/Downloads/fontawesome-free-5.12.1-web/css/all.css">
+    <link rel="stylesheet" type="text/css" href="about.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+
+</head>
+
+<body>
+<!-- -------------------------nav----------------------------------- -->
+    <header class="head_header">
+        <div class="container-fluid">
+            <nav class="top">
+                <ul>
+                    <li class="listhead">
+                        <a class="linko" href="#"><span id="btn1">SIGN IN</span></a>
+                    </li>
+                    <li class="listhead">
+                        <a class="linko" href="#"><span id="this">SIGN UP</span></a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="logo">
+        <img src="Ethical Store.png">
+    </div>
+    <header>
+        <div class="container-fluid">
+            <nav class="top1">
+                <ul class="pre">
+                    <li class="pro">
+                        <a class="prop" href="shopping.html">HOME</a>
+                    </li>
+                    <li class="pro">
+                        <a class="prop" href="collection.html">COLLECTION</a>
+                    </li>
+                    <li class="pro">
+                        <a class="prop" href="shop.html">SHOP</a>
+                    </li>
+                    <li class="pro">
+                        <a class="prop c1" href="#">ABOUT</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="about">
+        <img class="imab"src="about.jpeg">
+    </div>
+    <!-- /* -------------------------------------------sign in---------------------------------------------------------------- */ -->
+    <div class="modal">
+            <div class="popup" id="popup1">
+        <div class="close1" id="close1">&times;</div>
+        <div class="user_logo"><i class="fas fa-users fa-7x"></i></div>
+    <div class="containeruser">
+        <div class="enter_user">Username</div>
+        <input type="text" class="entry_user" placeholder="Enter username/mobile no.">
+        <div class="enter_user">Password</div>
+        <input type="text" class="entry_pass" placeholder="Enter user password"><br>
+    </div>
+        <input type="submit" class="submit" value="Log In">
+    </div>
+
+        <script src="arjun.js"></script>
+    </div>
+    <!-- /* -------------------------------------------sign up---------------------------------------------------------------- */ -->
+
+    <div class="popup2" id="signup">
+        <div class="close2" id="there">&times;</div>
+        <div class="user_logo"><i class="fas fa-users fa-7x"></i></div>
+    <div class="containeruser1">
+        <div class="fname">First Name</div>
+        <input type="text" class="entry_user" placeholder="Enter First Name">
+        <div class="fname">last Name</div>
+        <input type="text" class="luser" placeholder="Enter Last Name">
+        <div class="fname">Email</div>
+        <input type="text" class="entry_user" placeholder="Enter Email">
+        <div class="fname">Mobile no.</div>
+        <input type="text" class="num1" placeholder="Enter user number"><br>
+    </div>
+        <input type="submit" class="submit1" value="Next" >
+    </div>
+    <script>
+        var signup1 = document.getElementById('signup');
+var openthis = document.getElementById('this');
+var closethis = document.getElementById('there');
+openthis.addEventListener('click',openthisq);
+closethis.addEventListener('click',closethisq);
+function openthisq(){
+    signup1.style.display = 'block';
+    console.log('desd')
+}
+function closethisq(){
+    signup1.style.display = 'none';
+}
+
+    </script>
+<div class="row">
+    <div class="col-3 col-md-3""></div>
+    <div class="col-3 col-md-3 col-xs-6 col-sm-6" id="first">
+        <h1 class="heading">11 walls that tell stories at Ethical India</h1>
+        <p class="desc">Walls that have a voice and character. Here's a sneak peek into the Amazon India offices and its most interesting and inspiring walls!</p>
+        <hr>
+    </div>
+    <div class="col-3 col-md-3 col-xs-6 col-sm-6">
+        <img src="walls.jpeg" class="w3-round w3-image w3-opacity-min a1" alt="Table Setting" width="100%"
+            height="300"  class="pic">
+    </div>
+    <div class="col-3 col-md-3 col-xs-3 col-sm-3"></div>
+</div>
+<br>
+<div class="row">
+    <div class="col-3 col-md-3 col-xs-3 col-sm-3" id="first"></div>
+    <div class="col-3 col-md-3 col-xs-3 col-sm-3" class="pic">
+        <img src="leader.jpeg" class="w3-round w3-image w3-opacity-min a2" alt="Table Setting" width="100%"
+            height="300">
+    </div>
+    <div class="col-3 col-md-3 col-xs-3 col-sm-3" id="first">
+        <h1 class="heading">Our Leadership Principles</h1>
+        <p class="desc">Our Leadership Principles aren't inspirational wall hangings. These Principles work hard, just like we do.</p>
+    </div>
+    <div class="col-3 col-md-3 col-xs-3 col-sm-3"></div>
+    <hr>
+</div>
+<br>
+<hr>
+<div class="row">
+    <div class="col-3 col-md-3 col-xs-3 col-sm-3"></div>
+    <div class="col-3 col-md-3 col-xs-3 col-sm-3" id="first">
+        <h1 class="heading">Future of e-commerce is about customer-obsession</h1>
+        <p class="desc">Manish Tiwary, Vice President - Category Management, Amazon India, on finding locally relevant ways to reach out to the remotest parts of the country, unleashing the country’s entrepreneurial energy and manufacturing potential</p>
+    </div>
+    <div class="col-3 col-md-3 col-xs-3 col-sm-3" class="pic">
+        <img src="ecom.jpeg" class="w3-round w3-image w3-opacity-min a1" alt="Table Setting" width="100%"
+            height="300">
+    </div>
+    <div class="col-3 col-md-3 col-xs-3 col-sm-3"></div>
+</div>
+<br>
+<hr>
+<div class="row">
+    <div class="col-3 col-md-3 col-xs-3 col-sm-3" id="first"></div>
+    <div class="col-3 col-md-3 col-xs-3 col-sm-3" class="pic">
+        <img src="oppor.jpg" class="w3-round w3-image w3-opacity-min a2" alt="Table Setting" width="100%"
+            height="300">
+    </div>
+    <div class="col-3 col-md-3 col-xs-3 col-sm-3">
+        <h1 class="heading">Opportunities</h1>
+        <p class="desc">From selling globally to locally, from making money on your site to expanding your business, Amazon has a lot of opportuntiies for you to explore. </p>
+    </div>
+    <div class="col-3 col-md-3 col-xs-3 col-sm-3"></div>
+    <hr>
+</div>
+<br>
+<hr>
+<div class="row">
+    <div class="col-3 col-md-3 col-xs-3 col-sm-3"></div>
+    <div class="col-3 col-md-3 col-xs-3 col-sm-3" id="first">
+        <h1 class="heading">Ethical shopping</h1>
+        <p class="desc">Across India, there are thousands of sellers, authors and businesses using Ethical products and services to reach new customers, build and grow their businesses. A snapshot of how we are impacting lives in India..</p>
+    </div>
+    <div class="col-3 col-md-3 col-xs-3 col-sm-3" class="pic">
+        <img src="office.jpeg" class="w3-round w3-image w3-opacity-min a1" alt="Table Setting" width="100%" height=300">
+    </div>
+    <div class="col-3 col-md-3 col-xs-3 col-sm-3"></div>
+    <hr>
+</div>
+</div>
+<br>
+<div class="row1 footer">
+    <div class="tota tota1">
+        <ul>
+            <li class="point12">ABOUT US</li>
+            <li class="point1">Company background</li>
+            <li class="point1">Carrers</li>
+            <li class="point1">Reviews</li>
+        </ul>
+    </div>
+    <div class="tota tota2">
+        <ul>
+            <li class="point12">MEMBERSHIP</li>
+            <li class="point1">MEMBERSHIP OPTION</li>
+            <li class="point1">MEMBERSHIP BENIFITS</li>
+            <li class="point1">COPORATE MEMBERSHIP</li>
+        </ul>
+    </div>
+    <div class="tota tota3">
+        <ul>
+            <li class="point12">CLUBS</li>
+            <li class="point1">CLUBS FINDER</li>
+            <li class="point1">CLUBS OPERATING HOURS</li>
+            <li class="point1">CLUB FACILITES</li>
+        </ul>
+    </div>
+    <div class="tota tota4">
+        <ul>
+            <li class="point12">POLICIES&LEGAL</li>
+            <li class="point1">PRIVACY POLICY</li>
+            <li class="point1">TEMS AND CONDTION</li>
+            <li class="point1">LABOURS COMPLANE DOCUMENT</li>
+        </ul>
+    </div>
+    <div id="dash">
+        <i class="fab fa-facebook-square"></i>
+        <i class="fab fa-twitter-square"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-youtube"></i>
+    </div>
+    </div>
+</div>  
+<footer class="center">
+    <p>Ethical store &copy;2020</p>
+</footer>
+</body>
+</html>
